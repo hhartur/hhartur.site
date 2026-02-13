@@ -1,0 +1,63 @@
+{
+  "Header": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "learning": "Aprendendo",
+    "projects": "Projetos",
+    "viewProjects": "Ver Projetos",
+    "contact": "Contato"
+  },
+  "Hero": {
+    "badge": "Disponível para projetos",
+    "greeting": "Olá, sou",
+    "title": "Desenvolvedor Full Stack especializado em criar experiências web modernas e escaláveis",
+    "description": "Apaixonado por tecnologia e inovação, transformo ideias em soluções digitais elegantes e funcionais.",
+    "contactButton": "Entre em Contato"
+  },
+  "Skills": {
+    "title": "Minhas",
+    "titleHighlight": "Habilidades",
+    "description": "Tecnologias que domino e utilizo no dia a dia",
+    "languages": "Linguagens",
+    "frameworks": "Frameworks",
+    "libraries": "Bibliotecas"
+  },
+  "Projects": {
+    "title": "Meus",
+    "titleHighlight": "Projetos",
+    "description": "Alguns dos projetos que desenvolvi recentemente",
+    "code": "Código",
+    "demo": "Demo",
+    "seeMore": "Ver mais",
+    "seeLess": "Ver menos",
+    "project1Title": "E-commerce",
+    "project1Desc": "Website de e-commerce com catálogo de produtos e integração de checkout via WhatsApp. Implementação full-stack, incluindo banco de dados, autenticação JWT, painel administrativo e validação de formulários, garantindo segurança, controle e boa experiência do usuário."
+  },
+  "Footer": {
+    "description": "Desenvolvedor Full Stack apaixonado por criar experiências digitais incríveis.",
+    "navigation": "Navegação",
+    "connect": "Conecte-se",
+    "rights": "Todos os direitos reservados."
+  },
+  "Contact": {
+    "title": "Entre em",
+    "titleHighlight": "Contato",
+    "description": "Estou sempre aberto a novas oportunidades e conversas. Escolha a melhor forma de me contatar.",
+    "email": {
+      "title": "Email",
+      "description": "Entre em contato por email",
+      "action": "Acessar"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Me encontre no Discord",
+      "action": "Acessar"
+    },
+    "preferences": {
+      "title": "Preferências de Contato",
+      "description": "Para projetos e oportunidades profissionais, prefiro contato por email. Para conversas casuais ou dúvidas rápidas, o Discord é uma ótima opção!",
+      "responseTime": "Geralmente respondo em até 24 horas"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "learning": "Learning",
+    "projects": "Projects",
+    "viewProjects": "View Projects",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "badge": "Available for projects",
+    "greeting": "Hello, I'm",
+    "title": "Full Stack Developer specialized in creating modern and scalable web experiences",
+    "description": "Passionate about technology and innovation, I transform ideas into elegant and functional digital solutions.",
+    "contactButton": "Get in Touch"
+  },
+  "Skills": {
+    "title": "My",
+    "titleHighlight": "Skills",
+    "description": "Technologies I master and use daily",
+    "languages": "Languages",
+    "frameworks": "Frameworks",
+    "libraries": "Libraries"
+  },
+  "Projects": {
+    "title": "My",
+    "titleHighlight": "Projects",
+    "description": "Some of the projects I've recently developed",
+    "code": "Code",
+    "demo": "Demo",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "project1Title": "Modern E-commerce",
+    "project1Desc": "E-commerce website with a product catalog and WhatsApp checkout integration. Full-stack implementation including database, JWT authentication, admin panel, and form validation, ensuring security, manageability, and a smooth user experience. "
+  },
+  "Footer": {
+    "description": "Full Stack Developer passionate about creating amazing digital experiences.",
+    "navigation": "Navigation",
+    "connect": "Connect",
+    "rights": "All rights reserved."
+  },
+  "Contact": {
+    "title": "Get in",
+    "titleHighlight": "Touch",
+    "description": "I'm always open to new opportunities and conversations. Choose the best way to contact me.",
+    "email": {
+      "title": "Email",
+      "description": "Contact me via email",
+      "action": "Access"
+    },
+    "discord": {
+      "title": "Discord",
+      "description": "Find me on Discord",
+      "action": "Access"
+    },
+    "preferences": {
+      "title": "Contact Preferences",
+      "description": "For projects and professional opportunities, I prefer contact via email. For casual conversations or quick questions, Discord is a great option!",
+      "responseTime": "I usually respond within 24 hours"
+    }
+  }
+}
