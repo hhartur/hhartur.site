@@ -14,7 +14,7 @@ export function Footer() {
     { icon: Github, href: "https://github.com/hhartur", label: "GitHub" },
     { icon: Linkedin, href: "https://linkedin.com/in/artur-carmello-2b67353a2", label: "LinkedIn" },
     { icon: Twitter, href: "https://x.com/hhartur_", label: "Twitter" },
-    { icon: Mail, href: "/contact", label: "Email" },
+    { icon: Mail, href: "mailto:artur.carmello0@gmail.com", label: "Email" },
   ];
 
   const navLinks = [
