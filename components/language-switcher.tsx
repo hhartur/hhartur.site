@@ -11,10 +11,11 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import ReactCountryFlag from "react-country-flag";
 
 const languages = [
-  { code: "pt-br", name: "Português (BR)", flag: "🇧🇷" },
-  { code: "en", name: "English", flag: "🇺🇸" },
+  { code: "pt-br", name: "Português (BR)", flag: "BR" },
+  { code: "en", name: "English", flag: "US" },
 ] as const;
 
 export function LanguageSwitcher() {
@@ -45,7 +46,7 @@ export function LanguageSwitcher() {
               locale === language.code ? "bg-accent" : ""
             }
           >
-            <span className="mr-2">{language.flag}</span>
+            <ReactCountryFlag countryCode={language.flag} svg />
             {language.name}
           </DropdownMenuItem>
         ))}
