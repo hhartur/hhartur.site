@@ -1,9 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Code2 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { SiGithub, SiLinkedin, SiMailboxdotorg, SiMaildotcom, SiX } from "react-icons/si";
+import { Code2, Mail } from "lucide-react";
 
 export function Footer() {
   const t = useTranslations("Footer");
@@ -11,9 +12,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/hhartur", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/artur-carmello-2b67353a2", label: "LinkedIn" },
-    { icon: Twitter, href: "https://x.com/hhartur_", label: "Twitter" },
+    { icon: SiGithub, href: "https://github.com/hhartur", label: "GitHub" },
+    { icon: SiLinkedin, href: "https://linkedin.com/in/artur-carmello-2b67353a2", label: "LinkedIn" },
+    { icon: SiX, href: "https://x.com/hhartur_", label: "Twitter" },
     { icon: Mail, href: "mailto:artur.carmello0@gmail.com", label: "Email" },
   ];
 
