@@ -10,7 +10,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { AnimatedBackground } from "@/components/animated-background";
-import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,21 +42,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <head>
-        <Script id="propellerads" strategy="afterInteractive">
-          {`
-        (function(s){
-          s.dataset.zone='10614580',
-          s.src='https://al5sm.com/tag.min.js'
-        })(
-          [document.documentElement, document.body]
-            .filter(Boolean)
-            .pop()
-            .appendChild(document.createElement('script'))
-        );
-      `}
-        </Script>
-      </head>
       <body className={inter.className}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
