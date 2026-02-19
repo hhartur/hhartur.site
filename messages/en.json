@@ -32,7 +32,9 @@
     "seeMore": "See more",
     "seeLess": "See less",
     "project1Title": "Modern E-commerce",
-    "project1Desc": "E-commerce website with a product catalog and WhatsApp checkout integration. Full-stack implementation including database, JWT authentication, admin panel, and form validation, ensuring security, manageability, and a smooth user experience. "
+    "project1Desc": "E-commerce website with a product catalog and WhatsApp checkout integration. Full-stack implementation including database, JWT authentication, admin panel, and form validation, ensuring security, manageability, and a smooth user experience. ",
+    "project2Title": "Modern Manga Reader",
+    "project2Desc": "A modern manga reader built with Next.js, delivering a fast and smooth frontend experience. The backend is powered by Fastify, ensuring high performance and low latency. The application uses JWT-based authentication for secure access control, along with modern development practices such as SSR/ISR, RESTful APIs, and image loading optimizations. The project emphasizes usability, performance, and a scalable architecture."
   },
   "Footer": {
     "description": "Full Stack Developer passionate about creating amazing digital experiences.",

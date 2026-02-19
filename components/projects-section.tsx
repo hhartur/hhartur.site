@@ -17,6 +17,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    titleKey: "project2Title",
+    descriptionKey: "project2Desc",
+    image: "https://ik.imagekit.io/hhartur/image.png",
+    tags: ["Next.js", "TypeScript", "Tailwind", "JavaScript", "Fastify"],
+    demo: "https://emptyscan.site",
+  },
+  {
     titleKey: "project1Title",
     descriptionKey: "project1Desc",
     image: "https://ik.imagekit.io/hhartur/image.png",
