@@ -19,14 +19,14 @@ const projects: Project[] = [
   {
     titleKey: "project2Title",
     descriptionKey: "project2Desc",
-    image: "https://ik.imagekit.io/hhartur/image.png",
+    image: "https://ik.imagekit.io/hhartur/emptyscan",
     tags: ["Next.js", "TypeScript", "Tailwind", "JavaScript", "Fastify"],
     demo: "https://emptyscan.site",
   },
   {
     titleKey: "project1Title",
     descriptionKey: "project1Desc",
-    image: "https://ik.imagekit.io/hhartur/image.png",
+    image: "https://ik.imagekit.io/hhartur/palato",
     tags: ["Next.js", "TypeScript", "Tailwind"],
     demo: "https://palato-loja.vercel.app",
   }
