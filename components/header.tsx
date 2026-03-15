@@ -66,7 +66,7 @@ export function Header() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <DropdownMenu modal={false}>
+          {/*<DropdownMenu modal={false}>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" className="flex items-center gap-1">
                 <Briefcase className="h-4 w-4" />
@@ -81,7 +81,7 @@ export function Header() {
                 </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
-          </DropdownMenu>
+          </DropdownMenu>*/}
 
           <Link href="/contact">
             <Button className="flex items-center gap-2">
