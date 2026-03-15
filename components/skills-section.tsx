@@ -19,6 +19,7 @@ import {
   SiPhp,
   SiTailwindcss,
   SiFramer,
+  SiJavascript,
 } from "react-icons/si";
 
 interface Skill {
@@ -30,16 +31,11 @@ interface Skill {
 const skillsData = {
   languages: [
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
-    { name: "Dart", icon: SiDart, color: "#0175C2" },
-    { name: "PHP", icon: SiPhp, color: "#777BB4" },
-    { name: "C++", icon: SiCplusplus, color: "#00599C" },
+    { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   ] as Skill[],
   frameworks: [
     { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
-    { name: "Nuxt.js", icon: SiNuxtdotjs, color: "#00DC82" },
     { name: "React", icon: SiReact, color: "#61DAFB" },
-    { name: "Angular", icon: SiAngular, color: "#DD0031" },
-    { name: "Vue", icon: SiVuedotjs, color: "#4FC08D" },
     { name: "NestJS", icon: SiNestjs, color: "#E0234E" },
     { name: "Fastify", icon: SiFastify, color: "#000000" },
     { name: "Express", icon: SiExpress, color: "#000000" },
@@ -47,7 +43,6 @@ const skillsData = {
   libraries: [
     { name: "Vite", icon: SiVite, color: "#646CFF" },
     { name: "Tailwind", icon: SiTailwindcss, color: "#06B6D4" },
-    { name: "Framer", icon: SiFramer, color: "#0055FF" },
   ] as Skill[],
 };
 

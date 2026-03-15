@@ -7,7 +7,6 @@ export default function Home() {
     <main>
       <HeroSection />
       <SkillsSection />
-      <ProjectsSection />
     </main>
   );
 }
