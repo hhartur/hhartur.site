@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
+import { Archivo, JetBrains_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -9,17 +9,11 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { AnimatedBackground } from "@/components/animated-background";
+import { Blueprint } from "@/components/blueprint";
 import { MotionProvider } from "@/components/motion-provider";
 
-const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
-const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
-const serif = Instrument_Serif({
-  subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
-  variable: "--font-serif",
-});
+const display = Archivo({ subsets: ["latin"], weight: ["800", "900"], variable: "--font-display" });
+const mono = JetBrains_Mono({ subsets: ["latin"], weight: ["400", "500", "700"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://hhartur.com.br"),
@@ -61,7 +55,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={`${geist.variable} ${geistMono.variable} ${serif.variable} grain font-sans`}>
+      <body className={`${display.variable} ${mono.variable} crt`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"
@@ -70,7 +64,7 @@ export default async function LocaleLayout({
             disableTransitionOnChange={false}
           >
             <MotionProvider>
-              <AnimatedBackground />
+              <Blueprint />
               <Header />
               {children}
               <Analytics />

@@ -65,7 +65,7 @@ export function ThemeToggle() {
       variant="ghost"
       size="icon"
       onClick={toggleTheme}
-      className="relative overflow-hidden rounded-full"
+      className="relative overflow-hidden"
     >
       <motion.div
         initial={false}

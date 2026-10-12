@@ -1,63 +1,69 @@
 {
   "Header": {
-    "home": "Início",
+    "home": "Índice",
     "projects": "Projetos",
-    "skills": "Habilidades",
+    "skills": "Stack",
     "contact": "Contato",
-    "openMenu": "Abrir menu",
-    "closeMenu": "Fechar menu",
+    "menu": "Menu",
+    "close": "Fechar",
     "language": "Mudar idioma",
-    "theme": "Alternar tema"
+    "theme": "Alternar tema",
+    "local": "Hora local"
   },
   "Hero": {
-    "badge": "Disponível para projetos",
-    "greeting": "Olá, sou o hhartur",
-    "headline": "Construo produtos web *rápidos* e bem acabados.",
-    "description": "Desenvolvedor Full Stack. Do banco de dados à última animação da interface, transformo ideias em aplicações modernas, escaláveis e agradáveis de usar.",
+    "role": "Desenvolvedor Full Stack",
+    "status": "Status",
+    "available": "Disponível para projetos",
+    "stack": "Stack",
+    "focus": "Foco",
+    "focusValue": "Web apps rápidos e escaláveis",
+    "description": "Do banco de dados à última animação da interface. Transformo ideias em aplicações modernas, rápidas e bem acabadas.",
     "projectsButton": "Ver projetos",
-    "contactButton": "Entre em contato",
-    "stackLabel": "Stack principal",
-    "scroll": "Role para explorar"
+    "contactButton": "Contato",
+    "scroll": "Role"
   },
-  "Featured": {
-    "eyebrow": "Trabalhos recentes",
-    "title": "Projetos em *destaque*",
-    "description": "Uma seleção do que construí recentemente: do front-end ao back-end, com foco em desempenho e experiência.",
-    "viewAll": "Todos os projetos"
+  "Index": {
+    "section": "Projetos selecionados",
+    "viewAll": "Ver todos",
+    "colNo": "Nº",
+    "colProject": "Projeto",
+    "colType": "Tipo",
+    "colStack": "Stack"
   },
   "Skills": {
-    "eyebrow": "Stack",
-    "title": "Ferramentas que uso *todo dia*",
-    "description": "Tecnologias que domino e utilizo para levar um projeto do zero à produção.",
+    "section": "Stack técnica",
+    "title": "Ferramentas de trabalho",
+    "description": "Tecnologias que domino e uso para levar um projeto do zero à produção.",
     "languages": "Linguagens",
-    "languagesDesc": "Tipagem forte e código previsível em toda a stack.",
     "frameworks": "Frameworks",
-    "frameworksDesc": "Front-end com React e Next.js; APIs com NestJS, Fastify e Express.",
     "libraries": "Ferramentas",
-    "librariesDesc": "Build rápido e estilização consistente.",
-    "principles": "Como trabalho",
+    "principles": "Protocolo",
     "principle1": "Desempenho medido, não presumido",
     "principle2": "Interfaces acessíveis e responsivas",
     "principle3": "Código tipado e fácil de manter"
   },
   "Cta": {
-    "eyebrow": "Vamos conversar",
-    "title": "Tem um projeto em *mente?*",
+    "section": "Próximo passo",
+    "title": "Vamos construir",
     "description": "Conte sua ideia. Respondo em até 24 horas com os próximos passos.",
-    "button": "Entre em contato"
+    "button": "Iniciar conversa"
   },
   "Projects": {
     "metaTitle": "Projetos",
-    "eyebrow": "Portfólio",
-    "title": "Projetos que *construí*",
-    "description": "Aplicações completas, do banco de dados à interface. Filtre por tecnologia para explorar.",
+    "section": "Arquivo de projetos",
+    "title": "Projetos",
+    "description": "Aplicações completas, do banco de dados à interface. Filtre por tecnologia.",
     "filterLabel": "Filtrar por tecnologia",
     "all": "Todos",
-    "visit": "Ver site",
+    "visit": "Abrir site",
     "code": "Código",
     "highlights": "Destaques",
+    "type": "Tipo",
+    "stack": "Stack",
+    "link": "Link",
+    "offline": "Indisponível",
     "empty": "Nenhum projeto com essa tecnologia ainda.",
-    "count": "{count, plural, one {# projeto} other {# projetos}}",
+    "count": "{count, plural, one {# registro} other {# registros}}",
     "items": {
       "verdal": {
         "title": "Verdal",
@@ -95,33 +101,33 @@
     }
   },
   "Footer": {
-    "description": "Desenvolvedor Full Stack apaixonado por criar experiências digitais incríveis.",
+    "description": "Desenvolvedor Full Stack. Construindo experiências digitais rápidas e bem acabadas.",
     "navigation": "Navegação",
-    "connect": "Conecte-se",
+    "connect": "Conexões",
     "rights": "Todos os direitos reservados.",
-    "backToTop": "Voltar ao topo"
+    "backToTop": "Topo"
   },
   "Contact": {
     "metaTitle": "Contato",
-    "eyebrow": "Contato",
-    "title": "Vamos *conversar*",
-    "description": "Estou sempre aberto a novas oportunidades e conversas. Escolha a melhor forma de me contatar.",
+    "section": "Canal aberto",
+    "title": "Contato",
+    "description": "Estou sempre aberto a novas oportunidades e conversas. Escolha o canal.",
     "email": {
       "title": "Email",
-      "description": "Para projetos e propostas profissionais",
+      "description": "Projetos e propostas profissionais",
       "action": "Enviar email"
     },
     "discord": {
       "title": "Discord",
-      "description": "Para conversas rápidas e dúvidas",
+      "description": "Conversas rápidas e dúvidas",
       "action": "Abrir Discord"
     },
     "copy": "Copiar",
     "copied": "Copiado",
     "preferences": {
-      "title": "Preferências de contato",
-      "description": "Para projetos e oportunidades profissionais, prefiro contato por email. Para conversas casuais ou dúvidas rápidas, o Discord é uma ótima opção.",
-      "responseTime": "Geralmente respondo em até 24 horas"
+      "title": "Preferências",
+      "description": "Para projetos e oportunidades profissionais, prefiro email. Para conversas casuais ou dúvidas rápidas, o Discord é uma ótima opção.",
+      "responseTime": "Resposta em até 24h"
     }
   }
 }

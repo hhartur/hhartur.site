@@ -1,6 +1,8 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  // hover só em dispositivos com mouse: evita estados "grudados" no toque
+  future: { hoverOnlyWhenSupported: true },
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,9 +17,9 @@ const config: Config = {
   	},
   	extend: {
   		fontFamily: {
-  			sans: ['var(--font-geist)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-  			mono: ['var(--font-geist-mono)', 'ui-monospace', 'monospace'],
-  			serif: ['var(--font-serif)', 'ui-serif', 'Georgia', 'serif']
+  			sans: ['var(--font-mono)', 'ui-monospace', 'monospace'],
+  			mono: ['var(--font-mono)', 'ui-monospace', 'monospace'],
+  			display: ['var(--font-display)', 'ui-sans-serif', 'system-ui', 'sans-serif']
   		},
   		transitionTimingFunction: {
   			spring: 'cubic-bezier(0.32, 0.72, 0, 1)',
@@ -74,6 +76,9 @@ const config: Config = {
   			'marquee': {
   				to: { transform: 'translate3d(-50%, 0, 0)' }
   			},
+  			'blink': {
+  				'50%': { opacity: '0' }
+  			},
   			'float': {
   				'0%, 100%': {
   					transform: 'translateY(0px)'
@@ -93,6 +98,7 @@ const config: Config = {
   		},
   		animation: {
   			'marquee': 'marquee 40s linear infinite',
+  			'blink': 'blink 1.1s steps(1) infinite',
   			'float': 'float 6s ease-in-out infinite',
   			'pulse-slow': 'pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
   		}

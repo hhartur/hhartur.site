@@ -1,63 +1,69 @@
 {
   "Header": {
-    "home": "Home",
+    "home": "Index",
     "projects": "Projects",
-    "skills": "Skills",
+    "skills": "Stack",
     "contact": "Contact",
-    "openMenu": "Open menu",
-    "closeMenu": "Close menu",
+    "menu": "Menu",
+    "close": "Close",
     "language": "Change language",
-    "theme": "Toggle theme"
+    "theme": "Toggle theme",
+    "local": "Local time"
   },
   "Hero": {
-    "badge": "Available for projects",
-    "greeting": "Hi, I'm hhartur",
-    "headline": "I build *fast*, well-crafted web products.",
-    "description": "Full Stack Developer. From the database to the last interface animation, I turn ideas into modern, scalable applications that feel great to use.",
+    "role": "Full Stack Developer",
+    "status": "Status",
+    "available": "Available for projects",
+    "stack": "Stack",
+    "focus": "Focus",
+    "focusValue": "Fast, scalable web apps",
+    "description": "From the database to the last interface animation. I turn ideas into modern, fast and well-crafted applications.",
     "projectsButton": "View projects",
-    "contactButton": "Get in touch",
-    "stackLabel": "Core stack",
-    "scroll": "Scroll to explore"
+    "contactButton": "Contact",
+    "scroll": "Scroll"
   },
-  "Featured": {
-    "eyebrow": "Recent work",
-    "title": "Featured *projects*",
-    "description": "A selection of what I've built recently: front-end to back-end, with a focus on performance and experience.",
-    "viewAll": "All projects"
+  "Index": {
+    "section": "Selected projects",
+    "viewAll": "View all",
+    "colNo": "No.",
+    "colProject": "Project",
+    "colType": "Type",
+    "colStack": "Stack"
   },
   "Skills": {
-    "eyebrow": "Stack",
-    "title": "Tools I use *every day*",
+    "section": "Technical stack",
+    "title": "Working tools",
     "description": "Technologies I master and use to take a project from zero to production.",
     "languages": "Languages",
-    "languagesDesc": "Strong typing and predictable code across the stack.",
     "frameworks": "Frameworks",
-    "frameworksDesc": "Front-end with React and Next.js; APIs with NestJS, Fastify and Express.",
     "libraries": "Tooling",
-    "librariesDesc": "Fast builds and consistent styling.",
-    "principles": "How I work",
+    "principles": "Protocol",
     "principle1": "Performance measured, not assumed",
     "principle2": "Accessible, responsive interfaces",
     "principle3": "Typed, maintainable code"
   },
   "Cta": {
-    "eyebrow": "Let's talk",
-    "title": "Got a project in *mind?*",
+    "section": "Next step",
+    "title": "Let's build",
     "description": "Tell me your idea. I reply within 24 hours with next steps.",
-    "button": "Get in touch"
+    "button": "Start a conversation"
   },
   "Projects": {
     "metaTitle": "Projects",
-    "eyebrow": "Portfolio",
-    "title": "Projects I've *built*",
-    "description": "Complete applications, from database to interface. Filter by technology to explore.",
+    "section": "Project archive",
+    "title": "Projects",
+    "description": "Complete applications, from database to interface. Filter by technology.",
     "filterLabel": "Filter by technology",
     "all": "All",
-    "visit": "Visit site",
+    "visit": "Open site",
     "code": "Code",
     "highlights": "Highlights",
+    "type": "Type",
+    "stack": "Stack",
+    "link": "Link",
+    "offline": "Unavailable",
     "empty": "No projects with this technology yet.",
-    "count": "{count, plural, one {# project} other {# projects}}",
+    "count": "{count, plural, one {# record} other {# records}}",
     "items": {
       "verdal": {
         "title": "Verdal",
@@ -95,33 +101,33 @@
     }
   },
   "Footer": {
-    "description": "Full Stack Developer passionate about creating amazing digital experiences.",
+    "description": "Full Stack Developer. Building fast, well-crafted digital experiences.",
     "navigation": "Navigation",
     "connect": "Connect",
     "rights": "All rights reserved.",
-    "backToTop": "Back to top"
+    "backToTop": "Top"
   },
   "Contact": {
     "metaTitle": "Contact",
-    "eyebrow": "Contact",
-    "title": "Let's *talk*",
-    "description": "I'm always open to new opportunities and conversations. Choose the best way to reach me.",
+    "section": "Open channel",
+    "title": "Contact",
+    "description": "I'm always open to new opportunities and conversations. Pick a channel.",
     "email": {
       "title": "Email",
-      "description": "For projects and professional proposals",
+      "description": "Projects and professional proposals",
       "action": "Send email"
     },
     "discord": {
       "title": "Discord",
-      "description": "For quick chats and questions",
+      "description": "Quick chats and questions",
       "action": "Open Discord"
     },
     "copy": "Copy",
     "copied": "Copied",
     "preferences": {
-      "title": "Contact preferences",
+      "title": "Preferences",
       "description": "For projects and professional opportunities, I prefer email. For casual conversations or quick questions, Discord is a great option.",
-      "responseTime": "I usually reply within 24 hours"
+      "responseTime": "Reply within 24h"
     }
   }
 }
