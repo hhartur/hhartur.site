@@ -3,11 +3,13 @@
 import * as React from "react";
 import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
+  const { resolvedTheme: theme, setTheme } = useTheme();
+  const t = useTranslations("Header");
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
@@ -55,7 +57,7 @@ export function ThemeToggle() {
   };
 
   if (!mounted) {
-    return null;
+    return <span className="inline-block h-10 w-10" aria-hidden="true" />;
   }
 
   return (
@@ -63,7 +65,7 @@ export function ThemeToggle() {
       variant="ghost"
       size="icon"
       onClick={toggleTheme}
-      className="relative overflow-hidden"
+      className="relative overflow-hidden rounded-full"
     >
       <motion.div
         initial={false}
@@ -74,7 +76,7 @@ export function ThemeToggle() {
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className="absolute"
       >
-        <Sun className="h-5 w-5" />
+        <Sun className="h-[18px] w-[18px]" strokeWidth={1.5} />
       </motion.div>
       <motion.div
         initial={false}
@@ -85,9 +87,9 @@ export function ThemeToggle() {
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className="absolute"
       >
-        <Moon className="h-5 w-5" />
+        <Moon className="h-[18px] w-[18px]" strokeWidth={1.5} />
       </motion.div>
-      <span className="sr-only">Toggle theme</span>
+      <span className="sr-only">{t("theme")}</span>
     </Button>
   );
 }

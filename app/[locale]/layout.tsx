@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
@@ -10,13 +10,32 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { AnimatedBackground } from "@/components/animated-background";
+import { MotionProvider } from "@/components/motion-provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
+const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
+const serif = Instrument_Serif({
+  subsets: ["latin"],
+  weight: "400",
+  style: ["normal", "italic"],
+  variable: "--font-serif",
+});
 
 export const metadata: Metadata = {
-  title: "hhartur - Full Stack Developer",
+  metadataBase: new URL("https://hhartur.com.br"),
+  title: {
+    default: "hhartur - Full Stack Developer",
+    template: "%s | hhartur",
+  },
   description:
-    "Portfolio of hhartur - Full Stack Developer specialized in Next.js, React, Vue and more",
+    "Portfolio of hhartur - Full Stack Developer specialized in Next.js, React, Node.js and modern web experiences",
+  openGraph: {
+    title: "hhartur - Full Stack Developer",
+    description: "Portfolio of hhartur - Full Stack Developer",
+    url: "https://hhartur.com.br",
+    siteName: "hhartur",
+    type: "website",
+  },
 };
 
 export function generateStaticParams() {
@@ -42,7 +61,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${geist.variable} ${geistMono.variable} ${serif.variable} grain font-sans`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
             attribute="class"
@@ -50,11 +69,13 @@ export default async function LocaleLayout({
             enableSystem
             disableTransitionOnChange={false}
           >
-            <AnimatedBackground />
-            <Header />
-            {children}
-            <Analytics />
-            <Footer />
+            <MotionProvider>
+              <AnimatedBackground />
+              <Header />
+              {children}
+              <Analytics />
+              <Footer />
+            </MotionProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

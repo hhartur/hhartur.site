@@ -5,6 +5,9 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  images: {
+    remotePatterns: [{ protocol: "https", hostname: "ik.imagekit.io" }],
+  },
 };
 
 export default withNextIntl(nextConfig);

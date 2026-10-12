@@ -1,65 +1,127 @@
 {
   "Header": {
     "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "learning": "Learning",
     "projects": "Projects",
-    "viewProjects": "View Projects",
-    "contact": "Contact"
+    "skills": "Skills",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Change language",
+    "theme": "Toggle theme"
   },
   "Hero": {
     "badge": "Available for projects",
-    "greeting": "Hello, I'm",
-    "title": "Full Stack Developer specialized in creating modern and scalable web experiences",
-    "description": "Passionate about technology and innovation, I transform ideas into elegant and functional digital solutions.",
-    "contactButton": "Get in Touch"
+    "greeting": "Hi, I'm hhartur",
+    "headline": "I build *fast*, well-crafted web products.",
+    "description": "Full Stack Developer. From the database to the last interface animation, I turn ideas into modern, scalable applications that feel great to use.",
+    "projectsButton": "View projects",
+    "contactButton": "Get in touch",
+    "stackLabel": "Core stack",
+    "scroll": "Scroll to explore"
+  },
+  "Featured": {
+    "eyebrow": "Recent work",
+    "title": "Featured *projects*",
+    "description": "A selection of what I've built recently: front-end to back-end, with a focus on performance and experience.",
+    "viewAll": "All projects"
   },
   "Skills": {
-    "title": "My",
-    "titleHighlight": "Skills",
-    "description": "Technologies I master and use daily",
+    "eyebrow": "Stack",
+    "title": "Tools I use *every day*",
+    "description": "Technologies I master and use to take a project from zero to production.",
     "languages": "Languages",
+    "languagesDesc": "Strong typing and predictable code across the stack.",
     "frameworks": "Frameworks",
-    "libraries": "Libraries"
+    "frameworksDesc": "Front-end with React and Next.js; APIs with NestJS, Fastify and Express.",
+    "libraries": "Tooling",
+    "librariesDesc": "Fast builds and consistent styling.",
+    "principles": "How I work",
+    "principle1": "Performance measured, not assumed",
+    "principle2": "Accessible, responsive interfaces",
+    "principle3": "Typed, maintainable code"
+  },
+  "Cta": {
+    "eyebrow": "Let's talk",
+    "title": "Got a project in *mind?*",
+    "description": "Tell me your idea. I reply within 24 hours with next steps.",
+    "button": "Get in touch"
   },
   "Projects": {
-    "title": "My",
-    "titleHighlight": "Projects",
-    "description": "Some of the projects I've recently developed",
+    "metaTitle": "Projects",
+    "eyebrow": "Portfolio",
+    "title": "Projects I've *built*",
+    "description": "Complete applications, from database to interface. Filter by technology to explore.",
+    "filterLabel": "Filter by technology",
+    "all": "All",
+    "visit": "Visit site",
     "code": "Code",
-    "demo": "Demo",
-    "seeMore": "See more",
-    "seeLess": "See less",
-    "project1Title": "Modern E-commerce",
-    "project1Desc": "E-commerce website with a product catalog and WhatsApp checkout integration. Full-stack implementation including database, JWT authentication, admin panel, and form validation, ensuring security, manageability, and a smooth user experience. ",
-    "project2Title": "Modern Manga Reader",
-    "project2Desc": "A modern manga reader built with Next.js, delivering a fast and smooth frontend experience. The backend is powered by Fastify, ensuring high performance and low latency. The application uses JWT-based authentication for secure access control, along with modern development practices such as SSR/ISR, RESTful APIs, and image loading optimizations. The project emphasizes usability, performance, and a scalable architecture."
+    "highlights": "Highlights",
+    "empty": "No projects with this technology yet.",
+    "count": "{count, plural, one {# project} other {# projects}}",
+    "items": {
+      "verdal": {
+        "title": "Verdal",
+        "category": "Corporate website",
+        "summary": "A complete corporate website for a fictional renewable energy company, with scroll-driven animations.",
+        "description": "Demo project built with Nuxt 4: ten pages with dynamic routes, typed content, animated filters, a validated form and page transitions. Animations use IntersectionObserver and CSS scroll-driven timelines, with no scroll listeners, and respect reduced-motion preferences.",
+        "highlights": [
+          "Text contrast audited to AA level",
+          "Fully responsive, from phone to desktop",
+          "Images optimized per breakpoint"
+        ]
+      },
+      "emptyscan": {
+        "title": "EmptyScan",
+        "category": "Manga reader",
+        "summary": "A modern manga reader with a Next.js front-end and a high-performance Fastify API.",
+        "description": "A fast, smooth reading experience on the front-end, with a Fastify back-end ensuring low latency. JWT authentication, SSR/ISR, a RESTful API and image loading optimizations, focused on usability, performance and a scalable architecture.",
+        "highlights": [
+          "JWT authentication and access control",
+          "SSR/ISR for fast pages",
+          "Optimized image loading"
+        ]
+      },
+      "palato": {
+        "title": "Palato",
+        "category": "E-commerce",
+        "summary": "An online store with a product catalog and WhatsApp checkout integration.",
+        "description": "Full-stack implementation with database, JWT authentication, admin panel and form validation, ensuring security, operational control and a smooth shopping experience.",
+        "highlights": [
+          "Complete admin panel",
+          "WhatsApp checkout",
+          "End-to-end form validation"
+        ]
+      }
+    }
   },
   "Footer": {
     "description": "Full Stack Developer passionate about creating amazing digital experiences.",
     "navigation": "Navigation",
     "connect": "Connect",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
   },
   "Contact": {
-    "title": "Get in",
-    "titleHighlight": "Touch",
-    "description": "I'm always open to new opportunities and conversations. Choose the best way to contact me.",
+    "metaTitle": "Contact",
+    "eyebrow": "Contact",
+    "title": "Let's *talk*",
+    "description": "I'm always open to new opportunities and conversations. Choose the best way to reach me.",
     "email": {
       "title": "Email",
-      "description": "Contact me via email",
-      "action": "Access"
+      "description": "For projects and professional proposals",
+      "action": "Send email"
     },
     "discord": {
       "title": "Discord",
-      "description": "Find me on Discord",
-      "action": "Access"
+      "description": "For quick chats and questions",
+      "action": "Open Discord"
     },
+    "copy": "Copy",
+    "copied": "Copied",
     "preferences": {
-      "title": "Contact Preferences",
-      "description": "For projects and professional opportunities, I prefer contact via email. For casual conversations or quick questions, Discord is a great option!",
-      "responseTime": "I usually respond within 24 hours"
+      "title": "Contact preferences",
+      "description": "For projects and professional opportunities, I prefer email. For casual conversations or quick questions, Discord is a great option.",
+      "responseTime": "I usually reply within 24 hours"
     }
   }
 }

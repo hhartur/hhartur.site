@@ -1,64 +1,126 @@
 {
   "Header": {
     "home": "Início",
-    "about": "Sobre",
-    "skills": "Habilidades",
-    "learning": "Aprendendo",
     "projects": "Projetos",
-    "viewProjects": "Ver Projetos",
-    "contact": "Contato"
+    "skills": "Habilidades",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "language": "Mudar idioma",
+    "theme": "Alternar tema"
   },
   "Hero": {
     "badge": "Disponível para projetos",
-    "greeting": "Olá, sou",
-    "title": "Desenvolvedor Full Stack especializado em criar experiências web modernas e escaláveis",
-    "description": "Apaixonado por tecnologia e inovação, transformo ideias em soluções digitais elegantes e funcionais.",
-    "contactButton": "Entre em Contato"
+    "greeting": "Olá, sou o hhartur",
+    "headline": "Construo produtos web *rápidos* e bem acabados.",
+    "description": "Desenvolvedor Full Stack. Do banco de dados à última animação da interface, transformo ideias em aplicações modernas, escaláveis e agradáveis de usar.",
+    "projectsButton": "Ver projetos",
+    "contactButton": "Entre em contato",
+    "stackLabel": "Stack principal",
+    "scroll": "Role para explorar"
+  },
+  "Featured": {
+    "eyebrow": "Trabalhos recentes",
+    "title": "Projetos em *destaque*",
+    "description": "Uma seleção do que construí recentemente: do front-end ao back-end, com foco em desempenho e experiência.",
+    "viewAll": "Todos os projetos"
   },
   "Skills": {
-    "title": "Minhas",
-    "titleHighlight": "Habilidades",
-    "description": "Tecnologias que domino e utilizo no dia a dia",
+    "eyebrow": "Stack",
+    "title": "Ferramentas que uso *todo dia*",
+    "description": "Tecnologias que domino e utilizo para levar um projeto do zero à produção.",
     "languages": "Linguagens",
+    "languagesDesc": "Tipagem forte e código previsível em toda a stack.",
     "frameworks": "Frameworks",
-    "libraries": "Bibliotecas"
+    "frameworksDesc": "Front-end com React e Next.js; APIs com NestJS, Fastify e Express.",
+    "libraries": "Ferramentas",
+    "librariesDesc": "Build rápido e estilização consistente.",
+    "principles": "Como trabalho",
+    "principle1": "Desempenho medido, não presumido",
+    "principle2": "Interfaces acessíveis e responsivas",
+    "principle3": "Código tipado e fácil de manter"
+  },
+  "Cta": {
+    "eyebrow": "Vamos conversar",
+    "title": "Tem um projeto em *mente?*",
+    "description": "Conte sua ideia. Respondo em até 24 horas com os próximos passos.",
+    "button": "Entre em contato"
   },
   "Projects": {
-    "title": "Meus",
-    "titleHighlight": "Projetos",
-    "description": "Alguns dos projetos que desenvolvi recentemente",
+    "metaTitle": "Projetos",
+    "eyebrow": "Portfólio",
+    "title": "Projetos que *construí*",
+    "description": "Aplicações completas, do banco de dados à interface. Filtre por tecnologia para explorar.",
+    "filterLabel": "Filtrar por tecnologia",
+    "all": "Todos",
+    "visit": "Ver site",
     "code": "Código",
-    "demo": "Demo",
-    "seeMore": "Ver mais",
-    "seeLess": "Ver menos",
-    "project1Title": "E-commerce",
-    "project1Desc": "Website de e-commerce com catálogo de produtos e integração de checkout via WhatsApp. Implementação full-stack, incluindo banco de dados, autenticação JWT, painel administrativo e validação de formulários, garantindo segurança, controle e boa experiência do usuário.",
-    "project2Title": "Leitor de Manga Moderno",
-    "project2Desc": "Leitor de mangás moderno desenvolvido com Next.js, oferecendo uma experiência rápida e fluida no frontend. O backend foi construído com Fastify, garantindo alta performance e baixa latência. A aplicação utiliza autenticação via JWT para segurança e controle de acesso, além de práticas modernas de desenvolvimento como SSR/ISR, API REST e otimizações de carregamento de imagens. O projeto foca em usabilidade, desempenho e arquitetura escalável."
+    "highlights": "Destaques",
+    "empty": "Nenhum projeto com essa tecnologia ainda.",
+    "count": "{count, plural, one {# projeto} other {# projetos}}",
+    "items": {
+      "verdal": {
+        "title": "Verdal",
+        "category": "Site institucional",
+        "summary": "Site institucional completo para uma empresa fictícia de energia renovável, com animações guiadas pela rolagem.",
+        "description": "Projeto de demonstração construído com Nuxt 4: dez páginas com rotas dinâmicas, conteúdo tipado, filtros animados, formulário com validação e transições entre páginas. As animações usam IntersectionObserver e CSS scroll-driven, sem listeners de scroll, e respeitam a preferência de movimento reduzido.",
+        "highlights": [
+          "Contraste de texto auditado no nível AA",
+          "Totalmente responsivo, do celular ao desktop",
+          "Imagens otimizadas por breakpoint"
+        ]
+      },
+      "emptyscan": {
+        "title": "EmptyScan",
+        "category": "Leitor de mangá",
+        "summary": "Leitor de mangás moderno com front-end em Next.js e API de alta performance em Fastify.",
+        "description": "Experiência de leitura rápida e fluida no front-end, com back-end em Fastify garantindo baixa latência. Autenticação via JWT, SSR/ISR, API REST e otimizações de carregamento de imagens, com foco em usabilidade, desempenho e arquitetura escalável.",
+        "highlights": [
+          "Autenticação JWT e controle de acesso",
+          "SSR/ISR para páginas rápidas",
+          "Carregamento de imagens otimizado"
+        ]
+      },
+      "palato": {
+        "title": "Palato",
+        "category": "E-commerce",
+        "summary": "Loja virtual com catálogo de produtos e checkout integrado ao WhatsApp.",
+        "description": "Implementação full stack com banco de dados, autenticação JWT, painel administrativo e validação de formulários, garantindo segurança, controle da operação e uma boa experiência de compra.",
+        "highlights": [
+          "Painel administrativo completo",
+          "Checkout via WhatsApp",
+          "Validação de formulários de ponta a ponta"
+        ]
+      }
+    }
   },
   "Footer": {
     "description": "Desenvolvedor Full Stack apaixonado por criar experiências digitais incríveis.",
     "navigation": "Navegação",
     "connect": "Conecte-se",
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "backToTop": "Voltar ao topo"
   },
   "Contact": {
-    "title": "Entre em",
-    "titleHighlight": "Contato",
+    "metaTitle": "Contato",
+    "eyebrow": "Contato",
+    "title": "Vamos *conversar*",
     "description": "Estou sempre aberto a novas oportunidades e conversas. Escolha a melhor forma de me contatar.",
     "email": {
       "title": "Email",
-      "description": "Entre em contato por email",
-      "action": "Acessar"
+      "description": "Para projetos e propostas profissionais",
+      "action": "Enviar email"
     },
     "discord": {
       "title": "Discord",
-      "description": "Me encontre no Discord",
-      "action": "Acessar"
+      "description": "Para conversas rápidas e dúvidas",
+      "action": "Abrir Discord"
     },
+    "copy": "Copiar",
+    "copied": "Copiado",
     "preferences": {
-      "title": "Preferências de Contato",
-      "description": "Para projetos e oportunidades profissionais, prefiro contato por email. Para conversas casuais ou dúvidas rápidas, o Discord é uma ótima opção!",
+      "title": "Preferências de contato",
+      "description": "Para projetos e oportunidades profissionais, prefiro contato por email. Para conversas casuais ou dúvidas rápidas, o Discord é uma ótima opção.",
       "responseTime": "Geralmente respondo em até 24 horas"
     }
   }

@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { Languages } from "lucide-react";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import {
@@ -20,6 +20,7 @@ const languages = [
 
 export function LanguageSwitcher() {
   const locale = useLocale();
+  const t = useTranslations("Header");
   const router = useRouter();
   const pathname = usePathname();
 
@@ -32,9 +33,9 @@ export function LanguageSwitcher() {
   return (
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon">
-          <Languages className="h-5 w-5" />
-          <span className="sr-only">Change language</span>
+        <Button variant="ghost" size="icon" className="rounded-full">
+          <Languages className="h-[18px] w-[18px]" strokeWidth={1.5} />
+          <span className="sr-only">{t("language")}</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
